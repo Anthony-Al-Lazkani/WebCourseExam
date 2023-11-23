@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+        background-color: #fff;
+}
+
+
+.Big-Left-Div {
+    height: 800px;
+    width: 800px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    transition: .6s;
+    margin: 20px;
+    border-radius: 20px;
+    border: 5px solid gray;
+}
+
+.Big-Left-Div:hover {
+        box-shadow: 5px 5px 100px 10px#000;
+        transform: translateX(4px);
+        transform: translateY(-4px);
+}
+
+.Big-Right-Div:hover {
+        box-shadow: 5px 5px 100px 10px#000;
+        transform: translateX(-4px);
+        transform: translateY(-4px);
+}
+
+
+.Personal-Information {
+    position: absolute;
+    top: 10%;
+    left:10%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.First-Name {
+    background: none;
+}
+
+
+.First-Name h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+
+.First-Name input {
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px 0 gray;
+    outline: none;
+    padding: 5px;
+    color: #000;
+    font-size: 1.3em;
+}
+
+
+.Identification {
+    position: absolute;
+    margin-top: 30%;
+}
+
+.Identification h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.Identification input {
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    outline: none;
+    padding: 5px;
+    color: #000;
+    font-size: 1.3em;
+    box-shadow: 1px 1px 5px 0 gray;
+}
+
+
+.Dropdown {
+    position: absolute;
+    margin-top: 60%;
+}
+
+
+.Dropdown label {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+
+
+
+.absolute {
+    position:relative;
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.text-2xl {
+font-size: 28px; /* Increase the font size */
+color: #fff;
+margin-bottom: 20px;
+}
+
+.text-sm {
+font-size: 16px; /* Increase the font size */
+color: #000;
+margin-bottom: 5px;
+}
+
+form select, form input, form textarea {
+width: 100%;
+padding: 15px; /* Increase the padding */
+border-radius: 4px;
+border: 1px solid gray;
+background-color: #fff;
+color: #000;
+font-size: 18px; /* Increase the font size */
+margin-bottom: 20px;
+height: 100%;
+}
+
+form select:focus, form input:focus, form textarea:focus {
+border-color: gray;
+box-shadow: 0 0 5px #3090C7;
+}
+
+form button {
+background-color:gray;
+color: #fff;
+padding: 15px 30px; /* Increase the padding */
+font-size: 18px; /* Increase the font size */
+border: none;
+border-radius: 15px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+p{
+color: #000;
+}
+
+
+.Row {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+
+.Big-Right-Div {
+    height: 800px;
+    width: 800px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    transition: .6s;
+    margin: 20px;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+
+
+.Header-Text h1 {
+    color: #fff;
+    font-size: 3em;
+}
+
+.Header-Text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+
+
+.Buttons button {
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+    border: 2px solid #lightgray;
+    outline:none;
+    background: gray;
+    color: #fff;
+    font-size: 1.6em;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+
+.Buttons button:hover {
+    opacity: 0.8;
+}
+
+

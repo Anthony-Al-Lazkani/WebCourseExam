@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .absolute {
+          position:relative;
+          width: 100%;
+          padding: 5px;
+          border-radius: 8px;
+          box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+          margin-top: 100px;
+          opacity: 0.9;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 100px;
+      }
+    
+    .text-2xl {
+      font-size: 28px; /* Increase the font size */
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    
+    .text-sm {
+      font-size: 16px; /* Increase the font size */
+      color: #3090C7;
+      margin-bottom: 5px;
+    }
+    
+    form select, form input, form textarea {
+      width: 100%;
+      padding: 15px; /* Increase the padding */
+      border-radius: 4px;
+      border: 1px solid #00008b;
+      background-color: #fff;
+      color: #00008b;
+      font-size: 18px; /* Increase the font size */
+      margin-bottom: 20px;
+      height: 100%;
+    }
+    
+    form select:focus, form input:focus, form textarea:focus {
+      border-color: #3090C7;
+      box-shadow: 0 0 5px #3090C7;
+    }
+    
+    form button {
+      background-color:#3090C7;
+      color: #fff;
+      padding: 15px 30px; /* Increase the padding */
+      font-size: 18px; /* Increase the font size */
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    form button:hover {
+      background-color: #1e31ff;
+    }
+    p{
+      color: #3090C7;
+    }
+  
